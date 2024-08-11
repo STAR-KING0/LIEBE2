@@ -9,7 +9,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/STAR-KING0/Queen_Alya /Queen_Alya
-WORKDIR /Queen_Alya
+RUN git clone https://github.com/STAR-KING0/LIEBE /LIEBE
+WORKDIR /LIEBE
 RUN npm install
 CMD ["node", "index.js"]
